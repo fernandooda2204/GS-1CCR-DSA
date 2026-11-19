@@ -2,9 +2,7 @@
 
 **Disciplina:** Data Structures and Algorithms (DSA) • **Turma:** 1CC-FEV  
 **Atividade:** Global Solution 2026.2 — Citizen Tech  
-**Integrantes:** [PREENCHER NOMES E RMs]  
-**Data dos testes:** [PREENCHER DATA DE EXECUÇÃO LOCAL]  
-**Ambiente de entrega:** [PREENCHER VERSÃO DO PYTHON E SISTEMA OPERACIONAL]
+
 
 ## 1. Problema e recorte
 

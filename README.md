@@ -38,7 +38,6 @@ citizen_assist_ai/
 ├── README.md
 ├── docs/
 │   ├── 02_DOCUMENTACAO_TECNICA.md
-│   └── 03_APRESENTACAO.md
 └── testes/
     ├── test_estrutura.py
     ├── roteiro_testes.py
@@ -57,6 +56,5 @@ citizen_assist_ai/
 
 ## Documentação
 
-Consulte `docs/02_DOCUMENTACAO_TECNICA.md` para modelo, análise Big-O e evidências; e `docs/03_APRESENTACAO.md` para roteiro oral e perguntas.
+Consulte `docs/02_DOCUMENTACAO_TECNICA.md` para modelo, análise Big-O e evidências.
 
-**Antes da entrega:** preencher nomes e RM e atualizar informações do ambiente de execução. Confirme com o professor se a entrega deve ser em ZIP, GitHub ou PDF.
