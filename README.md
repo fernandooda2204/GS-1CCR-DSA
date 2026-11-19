@@ -2,6 +2,13 @@
 
 Protótipo de terminal em **Python 3.8+**, sem dependências externas, para catalogar informações **fictícias** de serviços de saúde. 
 
+## Integrantes
+| Nome completo | RM |
+|---|---|
+| Fernando Hideki Rosa Oda | 571408 |
+| Léo Moreno Sambo | 569556 |
+
+
 ## Execução
 
 No terminal, dentro da pasta `citizen_assist_ai`:
