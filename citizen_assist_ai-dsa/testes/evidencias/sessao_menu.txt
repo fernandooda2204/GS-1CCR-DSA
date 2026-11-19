@@ -1,0 +1,135 @@
+Evidência de uso do menu interativo com entradas inválidas e lista vazia.
+As entradas digitadas aparecem logo após cada pergunta (ex.: 'Escolha uma opção: 9').
+Uma entrada vazia (só Enter) aparece como linha sem valor após a pergunta.
+
+##### Sessão A: python main.py (lista vazia) #####
+
+=== CITIZEN ASSIST AI | SAÚDE ===
+1-Cadastrar | 2-Consultar ID | 3-Pesquisar | 4-Atualizar
+5-Excluir   | 6-Ordenar      | 7-Analisar   | 8-Sair
+Escolha uma opção: 6
+Lista vazia. Não há registros para ordenar.
+
+=== CITIZEN ASSIST AI | SAÚDE ===
+1-Cadastrar | 2-Consultar ID | 3-Pesquisar | 4-Atualizar
+5-Excluir   | 6-Ordenar      | 7-Analisar   | 8-Sair
+Escolha uma opção: 7
+Total de registros: 0
+Quantidade por categoria:
+  (nenhuma)
+Representação da estrutura: cabeça -> None
+Integridade da lista: OK
+
+=== CITIZEN ASSIST AI | SAÚDE ===
+1-Cadastrar | 2-Consultar ID | 3-Pesquisar | 4-Atualizar
+5-Excluir   | 6-Ordenar      | 7-Analisar   | 8-Sair
+Escolha uma opção: 2
+Identificador (inteiro positivo): 5
+Registro não encontrado.
+
+=== CITIZEN ASSIST AI | SAÚDE ===
+1-Cadastrar | 2-Consultar ID | 3-Pesquisar | 4-Atualizar
+5-Excluir   | 6-Ordenar      | 7-Analisar   | 8-Sair
+Escolha uma opção: 5
+Identificador (inteiro positivo): 7
+Registro não encontrado.
+
+=== CITIZEN ASSIST AI | SAÚDE ===
+1-Cadastrar | 2-Consultar ID | 3-Pesquisar | 4-Atualizar
+5-Excluir   | 6-Ordenar      | 7-Analisar   | 8-Sair
+Escolha uma opção: 4
+Identificador (inteiro positivo): 1
+Registro não encontrado.
+
+=== CITIZEN ASSIST AI | SAÚDE ===
+1-Cadastrar | 2-Consultar ID | 3-Pesquisar | 4-Atualizar
+5-Excluir   | 6-Ordenar      | 7-Analisar   | 8-Sair
+Escolha uma opção: 3
+Pesquisar por 1-Título ou 2-Categoria: 1
+Termo de pesquisa: Consulta
+Nenhum resultado encontrado.
+
+=== CITIZEN ASSIST AI | SAÚDE ===
+1-Cadastrar | 2-Consultar ID | 3-Pesquisar | 4-Atualizar
+5-Excluir   | 6-Ordenar      | 7-Analisar   | 8-Sair
+Escolha uma opção: 8
+Sistema encerrado.
+
+##### Sessão B: python main.py --demo (entradas inválidas) #####
+Demonstração: seis registros fictícios carregados.
+
+=== CITIZEN ASSIST AI | SAÚDE ===
+1-Cadastrar | 2-Consultar ID | 3-Pesquisar | 4-Atualizar
+5-Excluir   | 6-Ordenar      | 7-Analisar   | 8-Sair
+Escolha uma opção: 9
+Opção inválida. Escolha de 1 a 8.
+
+=== CITIZEN ASSIST AI | SAÚDE ===
+1-Cadastrar | 2-Consultar ID | 3-Pesquisar | 4-Atualizar
+5-Excluir   | 6-Ordenar      | 7-Analisar   | 8-Sair
+Escolha uma opção: abc
+Opção inválida. Escolha de 1 a 8.
+
+=== CITIZEN ASSIST AI | SAÚDE ===
+1-Cadastrar | 2-Consultar ID | 3-Pesquisar | 4-Atualizar
+5-Excluir   | 6-Ordenar      | 7-Analisar   | 8-Sair
+Escolha uma opção: 
+Opção inválida. Escolha de 1 a 8.
+
+=== CITIZEN ASSIST AI | SAÚDE ===
+1-Cadastrar | 2-Consultar ID | 3-Pesquisar | 4-Atualizar
+5-Excluir   | 6-Ordenar      | 7-Analisar   | 8-Sair
+Escolha uma opção: 2
+Identificador (inteiro positivo): abc
+ID inválido. Digite um número inteiro positivo.
+Identificador (inteiro positivo): 0
+ID inválido. Digite um número inteiro positivo.
+Identificador (inteiro positivo): -5
+ID inválido. Digite um número inteiro positivo.
+Identificador (inteiro positivo): 999
+Registro não encontrado.
+
+=== CITIZEN ASSIST AI | SAÚDE ===
+1-Cadastrar | 2-Consultar ID | 3-Pesquisar | 4-Atualizar
+5-Excluir   | 6-Ordenar      | 7-Analisar   | 8-Sair
+Escolha uma opção: 1
+Identificador (inteiro positivo): 30
+ID duplicado: cadastro recusado.
+
+=== CITIZEN ASSIST AI | SAÚDE ===
+1-Cadastrar | 2-Consultar ID | 3-Pesquisar | 4-Atualizar
+5-Excluir   | 6-Ordenar      | 7-Analisar   | 8-Sair
+Escolha uma opção: 3
+Pesquisar por 1-Título ou 2-Categoria: x
+Critério inválido.
+
+=== CITIZEN ASSIST AI | SAÚDE ===
+1-Cadastrar | 2-Consultar ID | 3-Pesquisar | 4-Atualizar
+5-Excluir   | 6-Ordenar      | 7-Analisar   | 8-Sair
+Escolha uma opção: 3
+Pesquisar por 1-Título ou 2-Categoria: 1
+Termo de pesquisa:    
+Campo obrigatório. Tente novamente.
+Termo de pesquisa: xyz
+Nenhum resultado encontrado.
+
+=== CITIZEN ASSIST AI | SAÚDE ===
+1-Cadastrar | 2-Consultar ID | 3-Pesquisar | 4-Atualizar
+5-Excluir   | 6-Ordenar      | 7-Analisar   | 8-Sair
+Escolha uma opção: 6
+Ordenar por 1-Título ou 2-Categoria: 3
+Critério inválido.
+
+=== CITIZEN ASSIST AI | SAÚDE ===
+1-Cadastrar | 2-Consultar ID | 3-Pesquisar | 4-Atualizar
+5-Excluir   | 6-Ordenar      | 7-Analisar   | 8-Sair
+Escolha uma opção: 5
+Identificador (inteiro positivo): 10
+Confirma a exclusão de Consulta básica? (s/N): n
+Exclusão cancelada.
+
+=== CITIZEN ASSIST AI | SAÚDE ===
+1-Cadastrar | 2-Consultar ID | 3-Pesquisar | 4-Atualizar
+5-Excluir   | 6-Ordenar      | 7-Analisar   | 8-Sair
+Escolha uma opção: 8
+Sistema encerrado.
